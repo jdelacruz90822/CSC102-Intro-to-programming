@@ -1,0 +1,47 @@
+
+/* this is the sty;e for the body of my entire HTML page */
+body{
+    background-image: url(flames.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+
+}
+
+/* this will align any image I add to my HTML in accordance to my liking */
+#memeImage{
+    margin-right: 200px;
+    width: 400px;
+    
+}
+/* this is the background for my title header */
+header{
+    background-color: rgba(169, 169, 169, .09);
+ 
+}
+
+/* style for my page header - H1 */
+h1{ 
+    text-align: center;
+    color: lightgray;
+}
+
+/* this is my button's style */
+button {
+    color: rgb(138, 19, 19);
+    background-color: black;
+    padding: 10px;
+    font-family:monospace
+}
+/* this is the footer style */
+footer{
+        margin: 50px;
+       background-color: rgba(169, 169, 169,.07);
+        text-align: center;
+        position: fixed; 
+        bottom: 10px;
+        width: 100vw;
+        color: rgb(243, 238, 238);
+        height: 5%;
+}
