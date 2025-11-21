@@ -1,0 +1,38 @@
+/* this is the background for the body of my HTML */
+body{
+    align-items: center;
+    background-color: rgb(238, 162, 95);
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+/* this is the design for my H1 */
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;  
+  align-items: center; 
+}
+
+/* this is the style for my Unordered list for the objectives  */
+ul{
+    background-color: rgb(240, 248, 255, 0.8);
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+    align-items: center;
+}
+
+/* this is the H2 style design  */
+h2 {
+  font-size: medium;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(240, 248, 255, 0.7);
+  border-radius: 20px;
+}
+
+/* this is the style for my footer area of my HTML */
+footer {
+   background-color: rgb(240, 255, 255, 0.7);
+   color: #070707;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
