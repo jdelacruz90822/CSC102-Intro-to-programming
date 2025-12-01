@@ -1,0 +1,51 @@
+<!--  Jennipher De La Cruz 
+  Assignment: Event Driven Programming-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set page character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Page title -->
+    <title>Event Movement Programming</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style4index2.css">
+</head>
+
+<body>
+
+    <!-- Main title on page -->
+    <h1>Meme Movement Demo</h1>
+
+    <!--When form is submitted, it displays a message using innerHTML.-->
+    <form onsubmit="return validateForm()">
+        
+        <!-- Input box only to satisfy requirement of form user input -->
+        <label>Type anything to activate controls:</label><br>
+
+        <input type="text" id="userInput"><br><br>
+
+        <!-- Submit button validates user input -->
+        <input type="submit" value="Submit Form">
+    </form>
+
+    <!-- Message area for user feedback (required: innerHTML) -->
+    <p id="validationMessage"></p>
+
+    <!-- Start button: calls JS function only -->
+    <button id="startBtn" onclick="startMoving()" disabled>Start</button>
+
+    <!-- Stop button: calls JS function only -->
+    <button id="stopBtn" onclick="stopMoving()" disabled>Stop</button>
+
+    <!-- Meme image that moves -->
+    <img id="meme" src="meme2.jpg" alt="Funny Meme">
+
+    <!-- Connect external JavaScript file -->
+    <script src="script4index2.js"></script>
+
+</body>
+</html>

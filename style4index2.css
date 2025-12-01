@@ -1,0 +1,50 @@
+/* background color and font for creative look */
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Style form labels and messages */
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style message area */
+#validationMessage {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Style buttons */
+button {
+    padding: 12px 22px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Start button color */
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Stop button color */
+#stopBtn {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* Meme image styling */
+#meme {
+    width: 80px;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+}
