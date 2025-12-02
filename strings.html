@@ -1,0 +1,63 @@
+<!-- 
+    Author: Jennipher De La Cruz 
+    Assignment: String Manipulation Secret Message
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Page title appears on tab -->
+    <title>String Assignment</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="strings.css">
+</head>
+
+<body>
+
+    <!-- Main heading so user knows what the page is for -->
+    <h1>Un secreto! (a Secret!) </h1>
+
+    <!-- 
+        Container div used ONLY to group and style the form visually.
+        This allows the form to be centered and given padding/background.
+    -->
+    <div class="container">
+
+        <!-- 
+            ALL inputs and the submit button must be inside ONE form.
+            Added onsubmit="handleSubmit(event)" — this replaces
+            form.onsubmit = function(event) in JavaScript.
+        -->
+        <form name="mainForm" id="mainForm" onsubmit="handleSubmit(event)">
+  
+            <!-- First name textbox -->
+            <label>First Name:</label>
+            <input id="firstName" type="text">
+
+            <!-- Last name textbox -->
+            <label>Last Name:</label>
+            <input id="lastName" type="text">
+
+            <!-- Zip code textbox -->
+            <label>Zip Code:</label>
+            <input id="zipCode" type="text">
+
+            <!-- Only ONE submit button allowed -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- 
+        Output area where innerHTML will show all messages:
+        name warnings, zip warnings, or the secret message.
+    -->
+    <div id="messageArea"></div>
+
+    <!-- Link external JavaScript file -->
+    <script src="strings.js"></script>
+
+</body>
+</html>
