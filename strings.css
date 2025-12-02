@@ -1,0 +1,51 @@
+/* Basic page layout and font */
+body {
+    background-color: #4883f1;
+    font-family: Arial, sans-serif;
+    padding: 25px;
+}
+
+/* Style for the page heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 
+    Container used to visually center the form.
+    Allows us to style the box without affecting the whole page.
+*/
+.container {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Make the inputs clean and evenly spaced */
+input {
+    display: block;
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/* Make the submit button look nice */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b8bf5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Output messages section */
+#messageArea {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
