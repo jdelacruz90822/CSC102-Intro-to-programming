@@ -1,0 +1,61 @@
+/* Overall page styling */
+body {
+    background-color: #f7dadf;        /* Soft purple background */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40px;
+    color: rgb(43, 3, 63);
+}
+
+/* Main white box */
+#container {
+    background: rgb(235, 136, 226);
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #aaa;
+}
+
+/* Input field styling */
+input {
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Buttons styling */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff5a83;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Result text */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Decorative image */
+img {
+    width: 120px;
+    margin-top: 20px;
+}
+
+/* Hide continue button initially */
+#continueBtn {
+    display: none;
+}
