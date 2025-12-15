@@ -1,0 +1,109 @@
+/* Style the entire page */
+body {
+    /* Background color for creative design */
+    background-color: #f7dadf;
+
+    /* Font choice */
+    font-family: 'Times New Roman', Times, serif;
+
+    /* Center text */
+    text-align: center;
+
+    /* Page padding */
+    padding: 40px;
+
+    /* Text color */
+    color: rgb(43, 3, 63);
+}
+
+/* Main content container */
+#container {
+    /* Background color */
+    background: rgb(235, 136, 226);
+
+    /* Width of container */
+    width: 50%;
+
+    /* Center container */
+    margin: auto;
+
+    /* Inner spacing */
+    padding: 25px;
+
+    /* Rounded corners */
+    border-radius: 15px;
+
+    /* Shadow effect */
+    box-shadow: 0px 0px 15px #aaa;
+}
+
+/* Input box styling */
+input {
+    /* Width of input field */
+    width: 80%;
+
+    /* Inner padding */
+    padding: 12px;
+
+    /* Space above input */
+    margin-top: 10px;
+
+    /* Rounded edges */
+    border-radius: 8px;
+
+    /* Border style */
+    border: 1px solid gray;
+
+    /* Font size */
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    /* Space above button */
+    margin-top: 15px;
+
+    /* Button padding */
+    padding: 10px 20px;
+
+    /* Rounded edges */
+    border-radius: 10px;
+
+    /* Remove default border */
+    border: none;
+
+    /* Button color */
+    background-color: #ff5a83;
+
+    /* Text color */
+    color: white;
+
+    /* Font size */
+    font-size: 16px;
+}
+
+/* Result message styling */
+#result {
+    /* Space above result text */
+    margin-top: 20px;
+
+    /* Text size */
+    font-size: 20px;
+
+    /* Bold text */
+    font-weight: bold;
+}
+
+/* Decorative image styling */
+img {
+    /* Image width */
+    width: 120px;
+
+    /* Space above image */
+    margin-top: 20px;
+}
+
+/* Continue button hidden initially */
+#continueBtn {
+    display: none;
+}
