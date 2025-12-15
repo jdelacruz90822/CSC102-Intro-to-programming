@@ -1,0 +1,47 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            background-image: url(Casino.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #0a0808;
+            text-align: center;
+            padding: 50px;
+            font-family: pacifico;
+            /* a unique font I selected I googled for a more sphisticated font look  */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-family: pacifico;
+
+        }
+        input[type="text"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        /* background setting CSS for my 1st header */
+        h1
+        {
+            background-color: rgb(255, 215, 0, 0.7);
+            margin: 20px;
+            font-family: pacifico;
+        }
+        /* the background color of my 2nd header  */
+        h2{
+            background-color: rgb(255, 215, 0, 0.7);
+        }
+        /* fitting the text with in the background faded box I 
+        have to go over the background image */
+        .fit-to-text {
+        display: inline-block; /* this helps the background of the headers 
+        to fit in background and not be overlapped */
+        padding: 5px 10px; /* spacing around the text */
+}

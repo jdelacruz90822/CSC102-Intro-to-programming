@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarks Casino - Dice Duel</title>
+    <!-- Link to external JavaScript file -->
+    <script src="debugging assignment.js" defer></script>
+   <link rel="stylesheet" href="gameCSS2.css">
+   <audio controls>
+    <!-- this is my audio I selected for my HTML web page  -->
+    <source src="audio.mp3" type="audio/mpeg">
+   </audio>
+</head>
+<body>
+    <br>
+
+    <!-- this is the heading of my game on my web page -->
+    <h1 class="fit-to-text">Welcome to Quarks Casino!</h1>
+    <!-- the type of game I created -->
+     <br>
+    <h2 class="fit-to-text">Dice Duel Game</h2>
+
+    <!-- Form to get player's name -->
+    <form id="playerForm">
+        <label for="playerName">Enter your name: </label>
+        <input type="text" id="playerName" name="playerName" required>
+        <input type="submit" value="Start Game">
+    </form>
+
+    <!-- Button to play the dice game -->
+    <button id="playButton" onclick="playDiceGame()">Roll Dice!</button>
+
+    <!-- Div to show game results -->
+    <div id="gameResult" class="result"></div>
+
+    <!-- Div to show personalized greeting -->
+    <div id="greeting" class="result"></div>
+</body>
+</html>
