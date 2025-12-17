@@ -1,0 +1,128 @@
+<!--
+    Palindrome Checker Assignment
+    Student Name: Jennipher De La Cruz
+-->
+
+<!DOCTYPE html>
+<!--
+    Declares the document type as HTML5.
+    This tells the browser which version of HTML to use
+    so the page renders correctly.
+-->
+
+<html lang="en">
+<!--
+    Opens the HTML document.
+    The "lang" attribute specifies that the content
+    is written in English, which helps with accessibility
+    tools and search engines.
+-->
+
+<head>
+    <!--
+        The <head> section contains metadata and resources
+        that are not directly displayed on the page.
+    -->
+
+    <!--
+        Specifies the character encoding as UTF-8.
+        This allows the browser to correctly display
+        special characters, symbols, and emojis.
+    -->
+    <meta charset="UTF-8">
+
+    <!--
+        Sets the title of the webpage.
+        This text appears in the browser tab
+        and is used by search engines.
+    -->
+    <title>Palindrome Checker</title>
+
+    <!--
+        Links an external CSS file to style the webpage.
+        The "rel" attribute defines the relationship,
+        and "href" points to the CSS file location.
+    -->
+    <link rel="stylesheet" href="12-15assignmentcss.css">
+
+</head>
+
+<body>
+    <!--
+        The <body> section contains all content
+        that will be visible to the user.
+    -->
+
+    <!--
+        Main container div that wraps all page elements.
+        This is often used for layout and styling purposes
+        such as centering content or controlling width.
+    -->
+    <div id="container">
+
+        <!--
+            Main heading of the page.
+            <h1> is typically used for the primary title
+            and helps with SEO and accessibility.
+        -->
+        <h1>Palindrome Checker</h1>
+
+        <!--
+            Displays a decorative image to enhance the design.
+            The "src" attribute specifies the image file,
+            and the "alt" attribute provides descriptive text
+            for screen readers and accessibility.
+        -->
+        <img src="mirror.jpg" alt="Mirror Icon">
+
+        <!--
+            Form element that collects user input.
+            The form allows users to submit data
+            and triggers JavaScript when submitted.
+        -->
+        <form id="palForm">
+
+            <!--
+                Text input field where the user enters
+                a word or phrase to be checked.
+                - type="text" allows text entry
+                - id connects this input to JavaScript
+                - placeholder shows instructional text
+                - required prevents empty submissions
+            -->
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Enter a word or phrase" 
+                required
+            >
+
+            <!--
+                Submit button for the form.
+                When clicked, it submits the form
+                and runs the JavaScript palindrome logic.
+            -->
+            <button type="submit">Check Word</button>
+
+        </form>
+
+        <!--
+            Paragraph element used to display the result
+            of the palindrome check.
+            JavaScript updates this text using innerHTML.
+        -->
+        <p id="result"></p>
+
+        <!--
+            Button that allows the user to check
+            another word or phrase.
+            This button is controlled by JavaScript
+            and is hidden or shown as needed.
+        -->
+        <button id="continueBtn">Check Another Word</button>
+
+    </div>
+    <!-- This is the link to my JavaScript for this HTML page -->
+    <script src="12--15assignment.js"></script>
+
+    </body>
